@@ -20,7 +20,7 @@ It’s to answer the question: “How do we usually do web development at Rocket
 
 It's also to share with our clients and prospective hires to see how we do things here.
 
-Finaly, it's meant to be flexible as technology changes and our practices change over time. It's a living document, meant to be contributed to by everyone at Rocket. See [CONTRIBUTING](CONTRIBUTING.MD) for details.
+Finaly, it's meant to be flexible as technology changes and our practices change over time. It's a living document, meant to be contributed to by everyone at Rocket. See [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 # Engineering Principles
 
@@ -97,9 +97,9 @@ Another major choice to make is where the application will be deployed. For a sm
 ## Preferred setup - Node.js flavor
 
 - React frontend
-  - See [React preferred practices](/preferred-practices/react.js)
+  - See [React preferred practices](preferred-practices/react.js)
 - Node.js REST API
-  - See [Node.js preferred practices](/preferred-practices/node.js)
+  - See [Node.js preferred practices](preferred-practices/node.js)
 - PostGres Database
 - AWS Based Deployment Infrastructure
   - S3 based deployment of React App
@@ -109,7 +109,7 @@ Another major choice to make is where the application will be deployed. For a sm
 ## Preferred setup - ☕ Java flavor
 
 - React frontend
-  - See [React preferred practices](/preferred-practices/react.js)
+  - See [React preferred practices](preferred-practices/react.js)
 - Spring Boot based API
   - API created using https://start.spring.io/
 - PostGres Database
@@ -131,7 +131,7 @@ You're an adult (noticing a theme yet?), use what tools you think are effective 
 
 These are not meant to be comprehensive _by any means_. You may even find conflicting ideas in these documents. The idea is to give you a list of things our experienced engineers have found to _consider_ for your project. The use of the word _preferred_ is very intentional.
 
-- [General Preferred Practices](/preferred-practices/general.md)
-- [Javascript Preferred Practices](/preferred-practices/javascript.md)
-- [React Preferred Practices](/preferred-practices/react.md) (in `TODO` status)
-- [Node.js Preferred Practices](/preferred-practices/nodejs.md)
+- [General Preferred Practices](preferred-practices/general.md)
+- [Javascript Preferred Practices](preferred-practices/javascript.md)
+- [React Preferred Practices](preferred-practices/react.md) (in `TODO` status)
+- [Node.js Preferred Practices](preferred-practices/nodejs.md)
