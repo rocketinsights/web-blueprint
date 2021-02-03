@@ -133,7 +133,7 @@ Another major choice to make is where the application will be deployed. For a sm
 
 # Suggested Tools
 
-You're an adult (noticing a theme yet?), use what tools you think are effective and that you prefer. But if you're looking for ideas, many Rocket web developers use the following:
+You're an adult (noticing a theme yet?), use what tools you think are effective and that you prefer. But if you're looking for ideas or for something new, many Rocket web developers use the following:
 
 - [Visual Studio Code](https://code.visualstudio.com/) - For editing
 - [TablePlus](https://www.tableplus.io/download) - For database stuff
@@ -148,4 +148,5 @@ These are not meant to be comprehensive _by any means_. You may even find confli
 - [Javascript Preferred Practices](preferred-practices/javascript.md)
 - [React Preferred Practices](preferred-practices/react.md) (in `TODO` status)
 - [Node.js Preferred Practices](preferred-practices/nodejs.md)
+- [Rails Preferred Practices](preferred-practices/rails.md) (in `TODO` status)
 - [Knowledge Transfer Preferred Practices](preferred-practices/knowledge-transfer.md)]
