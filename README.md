@@ -140,7 +140,7 @@ You're an adult (noticing a theme yet?), use what tools you think are effective 
 - [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools/) - ...Maybe we shouldn't even put it here but they're just so good!
 - `TODO` what else?
 
-# Language/Framework Preferred Practices
+# Preferred Practices
 
 These are not meant to be comprehensive _by any means_. You may even find conflicting ideas in these documents. The idea is to give you a list of things our experienced engineers have found to _consider_ for your project. The use of the word _preferred_ is very intentional.
 
@@ -148,3 +148,4 @@ These are not meant to be comprehensive _by any means_. You may even find confli
 - [Javascript Preferred Practices](preferred-practices/javascript.md)
 - [React Preferred Practices](preferred-practices/react.md) (in `TODO` status)
 - [Node.js Preferred Practices](preferred-practices/nodejs.md)
+- [Knowledge Transfer Preferred Practices](preferred-practices/knowledge-transfer.md)]
