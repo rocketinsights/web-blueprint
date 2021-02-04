@@ -102,10 +102,26 @@ If you we a completely greenfield web project with all choices given to us to ma
 
 Not every project is going to fit that mold, though. But for many simpler projects, it will. It's also historically what we've been good at, but it doesn't mean we should make that choice every time.
 
-Another major choice to make is where the application will be deployed. For a smaller client with no plans to hire DevOps support, we recommend deploying to Heroku. For clients who have, plan to have, a DevOps team, we recommend deploying to AWS. If the choice is there, we recommend using Elastic Container Service.
+## Questions to consider
+
+### What deployment platform will you use?
+
+For a smaller client with no plans to hire DevOps support, we recommend deploying to Heroku as it has
+much lower maintenance overhead (in terms of effort, not cost) and also is easier to use. You will sacrifice capability, of course.
+
+For clients who have, plan to have, a DevOps team, we recommend deploying to AWS. If the choice is there, we recommend using Elastic Container Service.
+
+### Other questions to consider
 
 - Is there a lot of content frequently edited? Consider a headless CMS. See [Evaluating your tech stack - Content Management Systemse](https://blog.rocketinsights.com/evaluating-your-tech-stack-content-management-systems/)
-- Our standard setup is node.js with a react frontend and a postgres database. But there are plenty of reasons to break from this, even on a greenfield project.
+- Does the frontend need a _really_ simple API? If so, consider the use of something like [Firebase](https://firebase.google.com/) to start off with to create a simple API.
+- Are there a lot of visualizations? Should we be considering some kind of off the shelf visualization tool instead of customizing every one of them?
+
+`TODO` add other questions here
+
+## Preferred Setups
+
+Below are some different stacks we generally use. Think of them as a guideline, not a rule.
 
 ## Preferred setup - Node.js flavor
 
