@@ -92,30 +92,26 @@ Pick a senior member of the team to be responsible for running the ceremonies. C
 
 # Where to start with a technical design or architecture
 
-The answer of where to start with a design for your project will likely come as part of a Statement of Work (SOW) or contract from the client. It will generally indicate that we’re going to implement a project in node/react/java/rust/go/perl/pascal/assembly. We should use that as a basis.
+The answer of where to start with a design for your project will likely come as part of a Statement of Work (SOW) or contract from the client. It will generally indicate that we’re going to implement a project in node/react/rails/java/rust/go/perl/pascal/assembly. We should use that as a basis for where to start. We rarely sign a contract without some general idea of the tech stack we're going to use.
 
-If you we a completely greenfield web project with all choices given to us to make, our standard setup would _probably_ be:
-
-- React web frontend
-- Node.js REST API
-- PostGres database
-
-Not every project is going to fit that mold, though. But for many simpler projects, it will. It's also historically what we've been good at, but it doesn't mean we should make that choice every time.
+If you're truly not sure, our `#engineering` Slack channel is a good place to pose your project's unique situation and get the Rocket hive mind to help you out.
 
 ## Questions to consider
 
+Regardless of your application tech stack, there are some general things we think about when picking a tech stack:
+
 ### What deployment platform will you use?
 
-For a smaller client with no plans to hire DevOps support, we recommend deploying to Heroku as it has
-much lower maintenance overhead (in terms of effort, not cost) and also is easier to use. You will sacrifice capability, of course.
+For a smaller client with no plans to hire DevOps support, we recommend deploying to [Heroku](https://heroku.com/) as it has much lower maintenance overhead (in terms of effort, not cost) and also is easier to use. You will sacrifice capability, of course.
 
-For clients who have, plan to have, a DevOps team, we recommend deploying to AWS. If the choice is there, we recommend using Elastic Container Service.
+For clients who have, or plan to have a DevOps team, we recommend deploying to AWS and taking advantage of their full ecosystem. If the choice is there, we recommend using Docker Containers and Elastic Container Service. Some situations will call for differing AWS technologies, though.
 
 ### Other questions to consider
 
 - Is there a lot of content frequently edited? Consider a headless CMS. See [Evaluating your tech stack - Content Management Systemse](https://blog.rocketinsights.com/evaluating-your-tech-stack-content-management-systems/)
 - Does the frontend need a _really_ simple API? If so, consider the use of something like [Firebase](https://firebase.google.com/) to start off with to create a simple API.
 - Are there a lot of visualizations? Should we be considering some kind of off the shelf visualization tool instead of customizing every one of them?
+- Do I really need a Single Page App? Is this a _really_ simple app that would benefit from simple Server Side Rendering?
 
 `TODO` add other questions here
 
