@@ -115,11 +115,11 @@ For clients who have, or plan to have a DevOps team, we recommend deploying to A
 
 `TODO` add other questions here
 
-## Preferred Setups
+## Suggested Setups
 
 Below are some different stacks we generally use. Think of them as a guideline, not a rule.
 
-## Preferred setup - Node.js flavor
+## Suggested setup - Node.js flavor
 
 - React frontend
   - See [React preferred practices](preferred-practices/react.js)
@@ -131,7 +131,7 @@ Below are some different stacks we generally use. Think of them as a guideline, 
   - Docker based Deployment of Node API in Elastic Container Service
   - Aurora PostGres compatible database
 
-## Preferred setup - ☕ Java flavor
+## Suggested setup - ☕ Java flavor
 
 - React frontend
   - See [React preferred practices](preferred-practices/react.js)
