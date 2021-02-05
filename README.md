@@ -59,7 +59,7 @@ Clients, this is also a handy list to have to prepare for Rocket starting a web 
 
 - [ ] Are we signing up for an ID with their organization for email/calendar/other access, or using our own ID's?
 - [ ] Do they have a QA Department or people available to test the product?
-- [ ] Does they have their own DevOps/Sys Admin organization?
+- [ ] Do they have their own DevOps/Sys Admin organization?
 - [ ] Do they have a process for on-boarding new engineers that we can adhere to?
 - [ ] Are there any tools we can install upfront to cut down ramp-up time?
 - [ ] How do they prefer we communicate? For example, Slack, email...
