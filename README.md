@@ -143,6 +143,13 @@ Below are some different stacks we generally use. Think of them as a guideline, 
   - Docker based Deployment of API in Elastic Container Service
   - Aurora PostgreSQL compatible database
 
+## Suggested setup - Ruby on Rails
+
+- [Rails](https://rubyonrails.org) latest version
+- [Rspec](https://rspec.info) for testing
+- [Sidekiq](https://github.com/mperham/sidekiq) for background jobs
+- [PostgresSQL](https://www.postgresql.org) latest version
+
 # Suggested Tools
 
 You're an adult (noticing a theme yet?), use what tools you think are effective and that you prefer. But if you're looking for ideas or for something new, many Rocket web developers use the following:
