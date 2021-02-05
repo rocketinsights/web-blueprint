@@ -1,4 +1,4 @@
-# General Preferred Practices
+# General Suggested Practices
 
 Nothing in here should be language, platform or framework specific.
 

@@ -1,4 +1,6 @@
-This is a collection of preferred practices for web development at Rocket Insights. It comes from our collective experience working on
+# Rocket Insights Web Bluepprint (suggested practices)
+
+This is a collection of suggested practices for web development at Rocket Insights. It comes from our collective experience working on
 software projects for many, many clients.
 
 Let’s start by talking about what this project _is not_:
@@ -6,6 +8,8 @@ Let’s start by talking about what this project _is not_:
 _This is not a list of rules you must follow when working on a development project at Rocket._
 
 You're an adult. And we hired you to be part of Rocket because we think you're a good developer.
+
+_This is not a boilerplate._ Boilerplate code/templates go out of date too quickly.
 
 _This is not meant to be an end all be all documentation of everything we do and everything we believe._
 
@@ -32,18 +36,23 @@ For many years, [new employees at Nordstrom’s department store](https://signal
 ```
 Welcome to Nordstrom
 
-We’re glad to have you with our Company. Our number one goal is to provide outstanding customer service. Set both your personal and professional goals high. We have great confidence in your ability to achieve them.
+We’re glad to have you with our Company. Our number one goal is
+to provide outstanding customer service. Set both your personal
+and professional goals high. We have great confidence in your
+ability to achieve them.
 
-Nordstrom Rules: Rule #1: Use best judgment in all situations. There will be no additional rules.
+Nordstrom Rules: Rule #1: Use best judgment in all situations.
+There will be no additional rules.
 
-Please feel free to ask your department manager, store manager, or division general manager any question at any time.
+Please feel free to ask your department manager, store manager,
+or division general manager any question at any time.
 ```
 
 _Use best judgment in all situations._ With all due respect to HubSpot’s culture code or Netflix’s ‘Freedom & Responsibility’ manifesto, it was Johan Nordstrom who invented the idea of individual responsibility back in 1887, and he was probably suffering from rickets at the time.
 
 While it’s a stretch to say we have "no additional rules" at Rocket, we try to keep our rules and processes as light as humanly possible.
 
-Here are some other rules of thumb you can follow:
+Here are some other rules of thumb to follow:
 
 - _"Snap In" to the client"_ - If the client is already using a tool or using a process, always go with what they already have/use, unless they’re explicitly asking for something different
 - _"Strong opinions, loosely held"_ - Never be afraid to present a case for doing something the way you think is right, but at the end of the day, it’s the client’s call and you need to be flexible.
@@ -122,9 +131,9 @@ Below are some different stacks we generally use. Think of them as a guideline, 
 ## Suggested setup - Node.js flavor
 
 - React frontend
-  - See [React preferred practices](preferred-practices/react.js)
+  - See [React suggested practices](suggested-practices/react.js)
 - Node.js REST API
-  - See [Node.js preferred practices](preferred-practices/node.js)
+  - See [Node.js suggested practices](suggested-practices/node.js)
 - PostgreSQL Database
 - AWS Based Deployment Infrastructure
   - S3 based deployment of React App
@@ -134,7 +143,7 @@ Below are some different stacks we generally use. Think of them as a guideline, 
 ## Suggested setup - ☕ Java flavor
 
 - React frontend
-  - See [React preferred practices](preferred-practices/react.js)
+  - See [React suggested practices](suggested-practices/react.js)
 - Spring Boot based API
   - API created using https://start.spring.io/
 - PostgreSQL Database
@@ -159,13 +168,13 @@ You're an adult (noticing a theme yet?), use what tools you think are effective 
 - [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools/) - ...Maybe we shouldn't even put it here but they're just so good!
 - `TODO` what else?
 
-# Preferred Practices
+# Suggested Practices
 
-These are not meant to be comprehensive _by any means_. You may even find conflicting ideas in these documents. The idea is to give you a list of things our experienced engineers have found to _consider_ for your project. The use of the word _preferred_ is very intentional.
+These are not meant to be comprehensive _by any means_. You may even find conflicting ideas in these documents. The idea is to give you a list of things our experienced engineers have found to _consider_ for your project. The use of the word _suggested_ is very intentional.
 
-- [General Preferred Practices](preferred-practices/general.md)
-- [Javascript Preferred Practices](preferred-practices/javascript.md)
-- [React Preferred Practices](preferred-practices/react.md) (in `TODO` status)
-- [Node.js Preferred Practices](preferred-practices/nodejs.md)
-- [Rails Preferred Practices](preferred-practices/rails.md) (in `TODO` status)
-- [Knowledge Transfer Preferred Practices](preferred-practices/knowledge-transfer.md)]
+- [General Suggested Practices](suggested-practices/general.md)
+- [Javascript Suggested Practices](suggested-practices/javascript.md)
+- [React Suggested Practices](suggested-practices/react.md) (in `TODO` status)
+- [Node.js Suggested Practices](suggested-practices/nodejs.md)
+- [Rails Suggested Practices](suggested-practices/rails.md)
+- [Knowledge Transfer Suggested Practices](suggested-practices/knowledge-transfer.md)]

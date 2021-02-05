@@ -1,3 +1,0 @@
-# Rails Preferred Practices
-
-`TODO`

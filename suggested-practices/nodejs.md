@@ -1,6 +1,6 @@
-# Node.js Preferred Practices
+# Node.js Suggested Practices
 
-Also see [Javascript preferred practices](javascript.md).
+Also see [Javascript suggested practices](javascript.md).
 
 - Use an [LTS](https://nodejs.org/en/about/releases/) version of node, not simply just "the latest version"
 - Prefer the use of a logging library rather than the console. Even if using a logging framework over the console seems like overkill at first, its not hard to setup, and having the ability to dial logging levels up and down and output logs to different formats easily will benefit the project over time. We have had good luck with [winston](https://github.com/winstonjs/winston)
@@ -16,6 +16,6 @@ Also see [Javascript preferred practices](javascript.md).
   - `TODO` what else?
 - Prefer handling errors in one place: middleware. Throw error objects in code and let middleware catch them and translate them into a standard format for HTTP status codes.
 - _Have automated tests using a well known framework_. Many at Rocket prefer [Jest](https://jestjs.io/). Even if it's better, don't use an obscure one. We want to make sure that we're handing over things that are easy to maintain for clients.
-- Consider using one of our boilerplates as a starting point which take many of these preferred practices into account and have already been laid out for you:
+- Consider using one of our boilerplates as a starting point which take many of these suggested practices into account and have already been laid out for you:
   - [node-express-rest-boilerplate](https://github.com/rocketinsights/node-express-rest-boilerplate) express based with different database flavors
   - [blazing edge api-skeleton](https://github.com/blazing-edge-labs/api-skeleton) - Koa based, not express based, but solid concepts and setup here.
