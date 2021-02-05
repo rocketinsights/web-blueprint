@@ -125,11 +125,11 @@ Below are some different stacks we generally use. Think of them as a guideline, 
   - See [React preferred practices](preferred-practices/react.js)
 - Node.js REST API
   - See [Node.js preferred practices](preferred-practices/node.js)
-- PostGres Database
+- PostgreSQL Database
 - AWS Based Deployment Infrastructure
   - S3 based deployment of React App
   - Docker based Deployment of Node API in Elastic Container Service
-  - Aurora PostGres compatible database
+  - Aurora PostgreSQL compatible database
 
 ## Suggested setup - ☕ Java flavor
 
@@ -137,11 +137,11 @@ Below are some different stacks we generally use. Think of them as a guideline, 
   - See [React preferred practices](preferred-practices/react.js)
 - Spring Boot based API
   - API created using https://start.spring.io/
-- PostGres Database
+- PostgreSQL Database
 - AWS Based Deployment Infrastructure
   - S3 based deployment of React App
   - Docker based Deployment of API in Elastic Container Service
-  - Aurora PostGres compatible database
+  - Aurora PostgreSQL compatible database
 
 # Suggested Tools
 
