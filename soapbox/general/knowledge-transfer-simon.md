@@ -1,4 +1,4 @@
-# Knowledge Transfer
+# [Simon's](https://github.com/orgs/rocketinsights/people/smonn) Knowledge Transfer Best Practices Soapbox
 
 We strive to make sure that when we handoff software, it's smooth and dare we say it, pleasurable for a client team to take over.
 

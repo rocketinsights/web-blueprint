@@ -1,5 +1,4 @@
-This is a collection of preferred practices for web development at Rocket Insights. It comes from our collective experience working on
-software projects for many, many clients.
+This is a collection of preferred practices for web development at Rocket Insights. It comes from our collective experience working on software projects for many, many clients.
 
 Let’s start by talking about what this project _is not_:
 
@@ -115,57 +114,32 @@ For clients who have, or plan to have a DevOps team, we recommend deploying to A
 
 `TODO` add other questions here
 
-## Suggested Setups
+# Soapboxes
 
-Below are some different stacks we generally use. Think of them as a guideline, not a rule.
+What's a soapbox? It's place where Rocket Engineers can share their opinions on a particular topic. It's a way for each engineer at Rocket to share their experience with the community. These are vetted through a group pull request process within Rocket.
 
-## Suggested setup - Node.js flavor
+You can find various topics you're looking for by using github code search in this repo like so:
+![Code Search Example](https://user-images.githubusercontent.com/392778/108128277-7cf9d180-707a-11eb-9e64-3d618aeede9b.png)
 
-- React frontend
-  - See [React preferred practices](preferred-practices/react.js)
-- Node.js REST API
-  - See [Node.js preferred practices](preferred-practices/node.js)
-- PostgreSQL Database
-- AWS Based Deployment Infrastructure
-  - S3 based deployment of React App
-  - Docker based Deployment of Node API in Elastic Container Service
-  - Aurora PostgreSQL compatible database
+It is fully acknowledged that each of these is a very personal take on a topic. Some of them might even conflict with each other.
 
-## Suggested setup - ☕ Java flavor
+You, dear developer, are an adult and are left to your own devices to take this information and take it
+from there to implement, ask further questions, or ignore.
 
-- React frontend
-  - See [React preferred practices](preferred-practices/react.js)
-- Spring Boot based API
-  - API created using https://start.spring.io/
-- PostgreSQL Database
-- AWS Based Deployment Infrastructure
-  - S3 based deployment of React App
-  - Docker based Deployment of API in Elastic Container Service
-  - Aurora PostgreSQL compatible database
+These are not meant to be comprehensive _by any means_. You may even find conflicting ideas in these documents. The idea is to give you a list of things our experienced engineers have found to _consider_ for your project.
 
-## Suggested setup - Ruby on Rails
+## General Software Development Best Practices
 
-- [Rails](https://rubyonrails.org) latest version
-- [Rspec](https://rspec.info) for testing
-- [Sidekiq](https://github.com/mperham/sidekiq) for background jobs
-- [PostgresSQL](https://www.postgresql.org) latest version
+- [Matt's General Soapbox](soapbox/general/matt.md)
 
-# Suggested Tools
+## Node.js
 
-You're an adult (noticing a theme yet?), use what tools you think are effective and that you prefer. But if you're looking for ideas or for something new, many Rocket web developers use the following:
+- [Matt's Node.js Soapbox](soapbox/nodejs/matt.md)
 
-- [Visual Studio Code](https://code.visualstudio.com/) - For editing
-- [TablePlus](https://www.tableplus.io/download) - For database stuff
-- [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools/) - ...Maybe we shouldn't even put it here but they're just so good!
-- `TODO` what else?
+## Ruby / Rails
 
-# Preferred Practices
+- [Jon Principes Rails Soapbox](soapbox/rails/jon.md)
 
-These are not meant to be comprehensive _by any means_. You may even find conflicting ideas in these documents. The idea is to give you a list of things our experienced engineers have found to _consider_ for your project. The use of the word _preferred_ is very intentional.
+## Other Non-Technical Topics
 
-- [General Preferred Practices](preferred-practices/general.md)
-- [Javascript Preferred Practices](preferred-practices/javascript.md)
-- [React Preferred Practices](preferred-practices/react.md) (in `TODO` status)
-- [Node.js Preferred Practices](preferred-practices/nodejs.md)
-- [Rails Preferred Practices](preferred-practices/rails.md) (in `TODO` status)
-- [Knowledge Transfer Preferred Practices](preferred-practices/knowledge-transfer.md)]
+- [Simon's Knowledge Transfer Soapboax](preferred-practices/general/knowledge-transfer-simon.md)
