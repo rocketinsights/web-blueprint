@@ -134,7 +134,7 @@ These are not meant to be comprehensive _by any means_. You may even find confli
 
 ## Node.js
 
-- [Matt's Node.js Soapbox](soapbox/nodejs/matt.md)
+- [Matt's Node.js Soapbox](soapbox/node.js/matt.md)
 
 ## Ruby / Rails
 
@@ -142,4 +142,4 @@ These are not meant to be comprehensive _by any means_. You may even find confli
 
 ## Other Non-Technical Topics
 
-- [Simon's Knowledge Transfer Soapboax](preferred-practices/general/knowledge-transfer-simon.md)
+- [Simon's Knowledge Transfer Soapboax](soapbox/general/knowledge-transfer-simon.md)
