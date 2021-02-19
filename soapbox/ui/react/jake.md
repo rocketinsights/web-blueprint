@@ -1,18 +1,18 @@
 # [Jake's](https://github.com/jakerainis) Soapbox of React Practices
 
-React is really just a view layer, and will require additional (most-often third party) tooling to build a full-fledged application. The React ecosystem is constantly evolving, which can make the tool selection process daunting. Sometimes trying a new tool is appropriate and should be done so at the architect's discretion. However, you should prefer a solution that won't be fought against and ideally one that is battle-tested. If they have a proven solution that has been previously used, consider using that setup as a jump-off to speed up development. 
+React is really just a view layer and will require additional (most-often third party) tooling to build a full-fledged application. The React ecosystem is constantly evolving, which can make the tool selection process daunting. Sometimes trying a new tool is appropriate and can be done so at the architect's discretion. However, you should prefer a battle-tested solution that won't be fought against.
 
 ## General React Practices
-- Prefer Functional components and hooks over Class components.
+- Prefer functional components and hooks over class components.
 - Prefer a project scaffold instead of writing a build from scratch. There is no silver bullet here, but common solutions at the time of this writing include:
   - [Create React App](https://reactjs.org/docs/create-a-new-react-app.html) for bundled single page applications on the client-side. 
   - [Next JS](https://nextjs.org/) for hybrid static and SSR applications. 
   - [Gatsby](https://www.gatsbyjs.com/) for statically generated sites. 
 - Prefer the use of a linter such as [ESLint](https://eslint.org/) to enforce pattern conventions.
 - Prefer using an auto-formatter such as [Prettier](https://prettier.io/) to enforce formatting conventions. 
-- Prefer [React Router](https://reactrouter.com/) until something better comes along.
+- Prefer [React Router](https://reactrouter.com/) until something better comes along and feel free to Slack me if you want to vent.
 - Typescript...?
-  - Pros: It's a fantastic way to navigate and debug (or prevent bugs before they happen) in large codebases and enforces predictability.
+  - Pros: It's a fantastic way to navigate and debug (and oftentimes prevent bugs before they happen) in large codebases and enforces predictability.
   - Cons: Requires a learning curve, particularly for those new to strong typing as well as additional tooling and configuration.
   - If it's not a requirement, consider the team you'll be working with and their preferences. If all are in favor, then prefer using TS as it will aid in project stability and readability as it scales. If it's going to make life harder, then leave it out.
   - Still unsure? Ask [Brandon Aaskov](https://github.com/brandonaaskov) from a safe distance.
