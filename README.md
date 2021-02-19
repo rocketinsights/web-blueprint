@@ -58,7 +58,7 @@ Clients, this is also a handy list to have to prepare for Rocket starting a web 
 
 - [ ] Are we signing up for an ID with their organization for email/calendar/other access, or using our own ID's?
 - [ ] Do they have a QA Department or people available to test the product?
-- [ ] Does they have their own DevOps/Sys Admin organization?
+- [ ] Do they have their own DevOps/Sys Admin organization?
 - [ ] Do they have a process for on-boarding new engineers that we can adhere to?
 - [ ] Are there any tools we can install upfront to cut down ramp-up time?
 - [ ] How do they prefer we communicate? For example, Slack, email...
@@ -70,11 +70,29 @@ Clients, this is also a handy list to have to prepare for Rocket starting a web 
 - [ ] Are we joining an existing team or forming our own team?
 - [ ] How should we let them know about time off or Rocket Holidays? Do they have a calendar they want us to use?
 
-# Client Communication
+# Working with Clients
 
 You're an adult and we trust you can communicate with other human beings in a kind and respectful way. We like to have fun and [do silly things](https://www.newburyportnews.com/news/local_news/newburyport-companys-effort-haunts-historic-inn-street-building/article_b3731893-88d4-5742-87f1-1f40295fb32e.html). We want to have the kind of energy which makes other engineers work with us and more importantly, _enjoy it_.
 
-Oh, and don't say the "F" word unless the client does first, please.
+Oh, but please don't say the "F" word unless the client does first, please 😜
+
+## What has worked for us in the past
+
+We've found the following things work really well working with clients:
+
+- Communicate. A lot.
+- Get shit done.
+- Speak from experience.
+  - Explain how things made a team or users happy or unhappy.
+  - There is no "best practice", there's only practice.
+- Present ideas frequently.
+  - Get decision makers on your side and/or find a [wolf pack](https://www.urbandictionary.com/define.php?term=Wolfpack)
+- Build it, then show and tell.
+  - New ideas are much more likely to get pulled in if they're already "mostly done."
+- Make developers' lives easier.
+  - Automate things. Improve performance. Find pain points and fix them.
+- Transcend your team.
+  - Communicate and become best friends with Design, UX, Product Owners, Architecture, DevOps... Etc.
 
 # Where to start with project processes
 
