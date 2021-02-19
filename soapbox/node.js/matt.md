@@ -1,6 +1,4 @@
-# Node.js Preferred Practices
-
-Also see [Javascript preferred practices](javascript.md).
+# [Matt's](https://github.com/theothermattm) Soapbox of Node.js Practices
 
 - Use an [LTS](https://nodejs.org/en/about/releases/) version of node, not simply just "the latest version"
 - Prefer the use of a logging library rather than the console. Even if using a logging framework over the console seems like overkill at first, its not hard to setup, and having the ability to dial logging levels up and down and output logs to different formats easily will benefit the project over time. We have had good luck with [winston](https://github.com/winstonjs/winston)

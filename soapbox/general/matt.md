@@ -1,6 +1,4 @@
-# General Preferred Practices
-
-Nothing in here should be language, platform or framework specific.
+# [Matt's](https://github.com/theothermattm) Soapbox of General Software Development Practices
 
 - Setup a build process right away, even if it's as simple as running linting at first! (see below)
 - Setup code linting right away as part of your build process! Even better, setup a code formatting tool (like Prettify for Javascript) to _auto correct_ these things on pre-commit hooks so they don't become an issue at all.
