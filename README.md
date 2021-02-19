@@ -1,3 +1,23 @@
+# Contents
+
+- [What is this project?](#what-is-this-project)
+- [Engineering Principles](#engineering-principles)
+- [Before A Client Project](#before-the-project)
+- [Working with Clients](#working-with-clients)
+  - [What has worked for us in the past](#what-has-worked-for-us-in-the-past)
+- [Where to start with project processes](#where-to-start-with-project-processes)
+- [Where to start with a technical design or architecture](#where-to-start-with-a-technical-design-or-architecture)
+  - [Questions to consider](#questions-to-consider)
+    - [What deployment platform will you use?](#what-deployment-platform-will-you-use)
+    - [Other questions to consider](#other-questions-to-consider)
+- [Soapboxes](#soapboxes) (Opinions and recommendations on various topics)
+  - [General Software Development Best Practices](#general-software-development-best-practices)
+  - [Node.js](#nodejs)
+  - [Ruby / Rails](#ruby--rails)
+  - [Other Non-Technical Topics](#other-non-technical-topics)
+
+# What is this project?
+
 This is a collection of preferred practices for web development at Rocket Insights. It comes from our collective experience working on software projects for many, many clients.
 
 Let’s start by talking about what this project _is not_:
@@ -48,7 +68,7 @@ Here are some other rules of thumb you can follow:
 - _"Strong opinions, loosely held"_ - Never be afraid to present a case for doing something the way you think is right, but at the end of the day, it’s the client’s call and you need to be flexible.
 - _If in doubt, ask_ - We trust your judgement, but we also trust that when you hit a situation that might ruffle feathers, that you’ll reach out to the right people for input at the client and at Rocket. If you're in doubt as to who to ask or how to go about it, ask the executive sponsor of your project.
 
-# Before The Project
+# Before a Client Project
 
 What to make sure you know about the project or company before the project starts.
 
