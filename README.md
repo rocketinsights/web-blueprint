@@ -46,7 +46,7 @@ Finally, it's meant to be flexible as technology changes and our practices chang
 
 Let's start with a story:
 
-For many years, [new employees at Nordstrom’s department store](https://signalvnoise.com/posts/2632-nordstroms-employee-handbook-mdash-short-and-sweet) were given a copy of the Nordstrom Employee Handbook, it was a single 5-by-8-inch gray index card that read:
+For many years, [new employees at Nordstrom's department store](https://signalvnoise.com/posts/2632-nordstroms-employee-handbook-mdash-short-and-sweet) were given a copy of the Nordstrom Employee Handbook, it was a single 5-by-8-inch gray index card that read:
 
 ```
 Welcome to Nordstrom
@@ -125,7 +125,7 @@ Our philosophy is "less is more." But you do need some process. At a minimum you
 
 Sometimes, during the contract process, we talk with the client indications of what process they prefer to use. Check with the projects' executive sponsor and see if that has been done or if we have some more freedom. In those cases, we don’t prescribe whether the team should use Scrum or Kanban, but pick one, and follow it’s core principles to run the project.
 
-Pick a senior member of the team to be responsible for running the ceremonies. Consider making it a shared responsiblity.
+Pick a senior member of the team to be responsible for running the ceremonies. Consider making it a shared responsibility.
 
 # Where to start with a technical design or architecture
 
@@ -145,7 +145,7 @@ For clients who have, or plan to have a DevOps team, we recommend deploying to A
 
 ### Other questions to consider
 
-- Is there a lot of content frequently edited? Consider a headless CMS. See [Evaluating your tech stack - Content Management Systemse](https://blog.rocketinsights.com/evaluating-your-tech-stack-content-management-systems/)
+- Is there a lot of content frequently edited? Consider a headless CMS. See [Evaluating your tech stack - Content Management Systems](https://blog.rocketinsights.com/evaluating-your-tech-stack-content-management-systems/)
 - Does the frontend need a _really_ simple API? If so, consider the use of something like [Firebase](https://firebase.google.com/) to start off with to create a simple API.
 - Are there a lot of visualizations? Should we be considering some kind of off the shelf visualization tool instead of customizing every one of them?
 - Do I really need a Single Page App? Is this a _really_ simple app that would benefit from simple Server Side Rendering?
@@ -176,8 +176,8 @@ These are not meant to be comprehensive _by any means_. You may even find confli
 
 ## Ruby / Rails
 
-- [Jon Principes Rails Soapbox](soapbox/rails/jon.md)
+- [Jon's Rails Soapbox](soapbox/rails/jon.md)
 
 ## Other Non-Technical Topics
 
-- [Simon's Knowledge Transfer Soapboax](soapbox/general/knowledge-transfer-simon.md)
+- [Simon's Knowledge Transfer Soapbox](soapbox/general/knowledge-transfer-simon.md)
