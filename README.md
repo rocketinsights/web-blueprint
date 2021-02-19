@@ -2,7 +2,7 @@
 
 - [What is this project?](#what-is-this-project)
 - [Engineering Principles](#engineering-principles)
-- [Before A Client Project](#before-the-project)
+- [Before A Client Project](#before-a-client-project)
 - [Working with Clients](#working-with-clients)
   - [What has worked for us in the past](#what-has-worked-for-us-in-the-past)
 - [Where to start with project processes](#where-to-start-with-project-processes)
