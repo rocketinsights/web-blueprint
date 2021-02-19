@@ -142,4 +142,4 @@ These are not meant to be comprehensive _by any means_. You may even find confli
 
 ## Other Non-Technical Topics
 
-- [Simon's Knowledge Transfer Soapbox](preferred-practices/general/knowledge-transfer-simon.md)
+- [Project handoff guide by Simon](soapbox/general/smonn-project-handoff.md)
