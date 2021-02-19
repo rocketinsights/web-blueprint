@@ -94,7 +94,7 @@ Clients, this is also a handy list to have to prepare for Rocket starting a web 
 
 You're an adult and we trust you can communicate with other human beings in a kind and respectful way. We like to have fun and [do silly things](https://www.newburyportnews.com/news/local_news/newburyport-companys-effort-haunts-historic-inn-street-building/article_b3731893-88d4-5742-87f1-1f40295fb32e.html). We want to have the kind of energy which makes other engineers work with us and more importantly, _enjoy it_.
 
-Oh, but please don't say the "F" word unless the client does first, please 😜
+Oh, but don't say the "F" word unless the client does first, please 😜
 
 ## What has worked for us in the past
 
