@@ -10,6 +10,7 @@ Rules of engagement:
 1. Anyone at Rocket can submit a Soapbox for a particular topic. Be sure to:
    1. Add a link to the appropriate category (or add a new one if necessary)
    1. Credit yourself along with your github handle
+   1. Name your file after your github handle
 1. Be respectful and open minded when submitting issues, providing feedback or providing contributions.
 1. Remeber, this is _public content_ that will reflect on Rocket. We want it to be polished, thoughtful
    and respectful.

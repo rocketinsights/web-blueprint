@@ -130,15 +130,15 @@ These are not meant to be comprehensive _by any means_. You may even find confli
 
 ## General Software Development Best Practices
 
-- [Matt's General Soapbox](soapbox/general/matt.md)
+- [Matt M's General Soapbox](soapbox/general/theothermattm.md)
 
 ## Node.js
 
-- [Matt's Node.js Soapbox](soapbox/nodejs/matt.md)
+- [Matt M's Node.js Soapbox](soapbox/nodejs/theothermattm.md)
 
 ## Ruby / Rails
 
-- [Jon's Rails Soapbox](soapbox/rails/jon.md)
+- [Jon P's Rails Soapbox](soapbox/rails/jprincipe.md)
 
 ## Other Non-Technical Topics
 
