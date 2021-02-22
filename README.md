@@ -1,8 +1,9 @@
 # Contents
 
+- [Contents](#contents)
 - [What is this project?](#what-is-this-project)
 - [Engineering Principles](#engineering-principles)
-- [Before A Client Project](#before-a-client-project)
+- [Before a Client Project](#before-a-client-project)
 - [Working with Clients](#working-with-clients)
   - [What has worked for us in the past](#what-has-worked-for-us-in-the-past)
 - [Where to start with project processes](#where-to-start-with-project-processes)
@@ -10,9 +11,10 @@
   - [Questions to consider](#questions-to-consider)
     - [What deployment platform will you use?](#what-deployment-platform-will-you-use)
     - [Other questions to consider](#other-questions-to-consider)
-- [Soapboxes](#soapboxes) (Opinions and recommendations on various topics)
+- [Soapboxes](#soapboxes)
   - [General Software Development Best Practices](#general-software-development-best-practices)
   - [Node.js](#nodejs)
+  - [React](#react)
   - [Ruby / Rails](#ruby--rails)
   - [Other Non-Technical Topics](#other-non-technical-topics)
 
@@ -179,7 +181,7 @@ These are not meant to be comprehensive _by any means_. You may even find confli
 
 ## React
 
-- [Jake's Node.js Soapbox](soapbox/nodejs/jakerainis.md)
+- [Jake R's Node.js Soapbox](soapbox/nodejs/jakerainis.md)
 
 ## Ruby / Rails
 
