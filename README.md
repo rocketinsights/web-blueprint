@@ -136,6 +136,10 @@ These are not meant to be comprehensive _by any means_. You may even find confli
 
 - [Matt's Node.js Soapbox](soapbox/nodejs/matt.md)
 
+## React
+
+- [Jake's Node.js Soapbox](soapbox/nodejs/jakerainis.md)
+
 ## Ruby / Rails
 
 - [Jon's Rails Soapbox](soapbox/rails/jon.md)
