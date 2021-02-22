@@ -113,6 +113,9 @@ We've found the following things work really well working with clients:
   - Automate things. Improve performance. Find pain points and fix them.
 - Transcend your team.
   - Communicate and become best friends with Design, UX, Product Owners, Architecture, DevOps... Etc.
+- Pay attention to detail.
+  - Don’t get sloppy (slow code, bad naming, missed edge cases, etc.) .
+  - Delight developers, designers and users.
 
 # Where to start with project processes
 
