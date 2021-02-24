@@ -182,7 +182,7 @@ These are not meant to be comprehensive _by any means_. You may even find confli
 
 ## React
 
-- [Jake R's Node.js Soapbox](soapbox/react/jakerainis.md)
+- [Jake R's React.js Soapbox](soapbox/react/jakerainis.md)
 
 ## Ruby / Rails
 
