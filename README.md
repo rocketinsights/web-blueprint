@@ -53,7 +53,8 @@ For many years, [new employees at Nordstrom's department store](https://signalvn
 ```
 Welcome to Nordstrom
 
-We’re glad to have you with our Company. Our number one goal is to provide outstanding customer service. Set both your personal and professional goals high. We have great confidence in your ability to achieve them.
+We’re glad to have you with our Company. Our number one goal is to provide outstanding customer service. Set
+both your personal and professional goals high. We have great confidence in your ability to achieve them.
 
 Nordstrom Rules: Rule #1: Use best judgment in all situations. There will be no additional rules.
 
@@ -177,11 +178,11 @@ These are not meant to be comprehensive _by any means_. You may even find confli
 
 ## Node.js
 
-- [Matt M's Node.js Soapbox](soapbox/nodejs/theothermattm.md)
+- [Matt M's Node.js Soapbox](soapbox/node.js/theothermattm.md)
 
 ## React
 
-- [Jake R's Node.js Soapbox](soapbox/nodejs/jakerainis.md)
+- [Jake R's Node.js Soapbox](soapbox/react/jakerainis.md)
 
 ## Ruby / Rails
 
