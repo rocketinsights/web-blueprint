@@ -16,4 +16,4 @@ Rules of engagement:
    and respectful.
 1. Strong opinions, loosely held. This is a gathering of our collective recommendations, but if something is hotly contested _we should acknowledge it_ and consider just saying "We haven't come to a conclusion on which is better" and provide both sides of the argument.
 1. Recommend _practices_, not _tools_. Say: "Write automated tests using a well supported framework (eg: Jest)." rather than "Use Jest for automated testing." This advice is unlikely to become outdated and doesn't get people's hackles up.
-1. Don't contribute for _completeness sake_. This project will never be complete. Contribute things that instead original and helpful.
+1. Don't contribute for _completeness sake_. This project will never be complete. Contribute things instead that are original and helpful.
