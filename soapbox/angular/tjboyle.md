@@ -11,7 +11,7 @@ This soapbox is a collection of those thoughts on various subjects for Angular p
 ## Testing
 Angular comes preinstalled with [Jasmine](https://jasmine.github.io/) set up, but it's somewhat outdated and unreliable when it comes to being able to mock dependencies. A more modern solution that is recommended is [Jest](https://jestjs.io/).
 
-Thing to keep in mind:
+Things to keep in mind:
 - Every new feature should have corresponding unit tests to test any and all conditional paths.
 - Mock called functions when possible, to ensure you are only testing one function at a time
 - Avoid testing large object comparisons, instead opting to test specific attributes exist on both objects
@@ -24,7 +24,7 @@ Thing to keep in mind:
 ## Linting
 The newest version of Angular has dropped support for [TSLint](https://palantir.github.io/tslint/), in favor of [ESLint](https://eslint.org/) - due to it's ability to lint both JS _and_ TS files. 
 
-Thing to keep in mind:
+Things to keep in mind:
 - Dont reinvent the wheel, use an imported linting configuration
 - Install relevant linter extension for IDE
 - Confirm entire team is configured correctly, to avoid linting mismatch issues
@@ -33,7 +33,7 @@ Thing to keep in mind:
 ## Prettifying
 For Angular, [Prettier](https://prettier.io/) is the top of the game for auto code cleanup, and with a little work it can mesh nicely with existing linters
 
-Thing to keep in mind:
+Things to keep in mind:
 - Don't reinvent the wheel, fall back on the default configurations as much as possible
 - Install relevant prettifying extension for IDE
 - If using Prettier, make sure it's version locked in `package.json` 
