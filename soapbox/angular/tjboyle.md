@@ -49,9 +49,9 @@ For Angular (and really any node project) [Husky](https://github.com/typicode/hu
 ***
 
 ## Coding Style Guide
-Generally speaking, it's good for Angular code to follow the [Angular Coding Style Guide](https://angular.io/guide/styleguide) developed and released by Angular themselves, as well as most of [Microsoft’s Typescript Coding Guidelines](https://github.com/Microsoft/TypeScript/wiki/Coding-guidelines) for Typescript code styling. It's worth noting that Microsoft themselves _strongly_ believes that the coding guidelines they outline should not be prescriptive (probably because they were getting so many opinions and questions about them) - but nonetheless gives the choice to adopt for your own usage as necessary.
+Generally speaking, it's good for Angular code to follow the [Angular Coding Style Guide](https://angular.io/guide/styleguide) developed and released by Angular themselves. It is recommended that any developer working on Angular be familiarized with this guide, as overviews a lot of common patterns that make Angular development much cleaner and easier.
 
-The below outlines some additional consistency standards not mentioned in the above guides, and also not captured by Linters or Prettifiers.
+The below outlines some additional consistency standards not mentioned in that guide, and also not captured by standard Linters or Prettifiers.
 
 Please keep in mind that every developer has opinions, but consistency trumps opinion so it’s important a standard is selected and followed to maintain the health of the repository. <br>
 **In other words, that standard doesn't have to be _this_ one, but it should be _some_ one.**
