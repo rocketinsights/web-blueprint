@@ -99,6 +99,19 @@ Instead opt for using JS Doc style comments where it makes sense - when a piece 
 
 <br>
 
+### File Naming
+Avoid inconsistent file names
+
+It's recommended that a naming scheme be decided and stuck to, whether it be `kebab-case`, `camelCase` or some other pattern. This avoids mixing of file naming in the application making file finding easier and imports cleaner.
+
+IE:
+- billing-payments.service.ts
+- payments.guard.ts
+- add-webhooks.component.ts
+
+
+<br>
+
 ### Folder Structure
 Avoid flat folder structures.
 
