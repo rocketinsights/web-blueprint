@@ -4,14 +4,14 @@ Generally speaking, Angular is relatively hand-holdy when it comes to what tech 
 
 Additionally, it makes sense to at least be aware of some recommended coding styles when it comes to developing an Angular application.
 
-This soapbox is thoughts on these various subjects for Angular projects.
+This soapbox is a collection of those thoughts on various subjects for Angular projects.
 
 ***
 
 ## Testing
 Angular comes preinstalled with [Jasmine](https://jasmine.github.io/) set up, but it's somewhat outdated and unreliable when it comes to being able to mock dependencies. A more modern solution that is recommended is [Jest](https://jestjs.io/).
 
-Best Practices:
+Thing to keep in mind:
 - Every new feature should have corresponding unit tests to test any and all conditional paths.
 - Mock called functions when possible, to ensure you are only testing one function at a time
 - Avoid testing large object comparisons, instead opting to test specific attributes exist on both objects
@@ -24,7 +24,7 @@ Best Practices:
 ## Linting
 The newest version of Angular has dropped support for [TSLint](https://palantir.github.io/tslint/), in favor of [ESLint](https://eslint.org/) - due to it's ability to lint both JS _and_ TS files. 
 
-Best Practices:
+Thing to keep in mind:
 - Dont reinvent the wheel, use an imported linting configuration
 - Install relevant linter extension for IDE
 - Confirm entire team is configured correctly, to avoid linting mismatch issues
@@ -33,7 +33,7 @@ Best Practices:
 ## Prettifying
 For Angular, [Prettier](https://prettier.io/) is the top of the game for auto code cleanup, and with a little work it can mesh nicely with existing linters
 
-Best Practices:
+Thing to keep in mind:
 - Don't reinvent the wheel, fall back on the default configurations as much as possible
 - Install relevant prettifying extension for IDE
 - If using Prettier, make sure it's version locked in `package.json` 
@@ -99,26 +99,12 @@ Instead opt for using JS Doc style comments where it makes sense - when a piece 
 
 <br>
 
-### File Naming
-Avoid inconsistent file names
-
-Files should be named after the main functionality they provide, and should have dot notation to describe what type of file it is.
-
-Files should additionally be kebab-cased when necessary, capped at 3 words.
-
-IE:
-- billing-payments.service.ts
-- billing-payments.component.ts
-- billing-payments.module.ts
-
-It’s clear at a glance what each file in this example pertains to.
-
-<br>
-
 ### Folder Structure
 Avoid flat folder structures.
 
 Instead opt to put nested components and code pieces into similarly nested folders.
+
+This allows for more modularized component orgnization, and makes it easier to quickly find separate parts of the codebase.
 
 IE:
 ```
@@ -134,9 +120,9 @@ webhooks/
 <br>
 
 ### Component Code Ordering
-Avoid unpatterened and inconsistent code ordering in components. 
+Avoid unpatternened and inconsistent code ordering in components. 
 
-Code within a component should follow the consistent pattern of:
+Code within a component could, for example, follow the consistent pattern of:
 
 ```
 <Class variables excluding getters and setters>
