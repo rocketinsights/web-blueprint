@@ -188,6 +188,10 @@ These are not meant to be comprehensive _by any means_. You may even find confli
 
 - [Jon P's Rails Soapbox](soapbox/rails/jprincipe.md)
 
+## Angular
+
+- [TJ B's Angular Soapbox](soapbox/angular/tjboyle.md)
+
 ## Other Non-Technical Topics
 
 - [Project handoff guide by Simon](soapbox/general/smonn-project-handoff.md)
