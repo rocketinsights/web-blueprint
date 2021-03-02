@@ -172,9 +172,17 @@ from there to implement, ask further questions, or ignore.
 
 These are not meant to be comprehensive _by any means_. You may even find conflicting ideas in these documents. The idea is to give you a list of things our experienced engineers have found to _consider_ for your project.
 
+## Angular
+
+- [TJ B's Angular Soapbox](soapbox/angular/tjboyle.md)
+
 ## General Software Development Best Practices
 
 - [Matt M's General Soapbox](soapbox/general/theothermattm.md)
+
+## Java
+
+- [Matt M's Java Soapbox](soapbox/java/theothermattm.md)
 
 ## Node.js
 
@@ -187,10 +195,6 @@ These are not meant to be comprehensive _by any means_. You may even find confli
 ## Ruby / Rails
 
 - [Jon P's Rails Soapbox](soapbox/rails/jprincipe.md)
-
-## Java
-
-- [Matt M's Java Soapbox](soapbox/java/theothermattm.md)
 
 ## Other Non-Technical Topics
 
