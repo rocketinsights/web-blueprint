@@ -12,7 +12,9 @@
     - [What deployment platform will you use?](#what-deployment-platform-will-you-use)
     - [Other questions to consider](#other-questions-to-consider)
 - [Soapboxes](#soapboxes)
+  - [Angular](#angular)
   - [General Software Development Best Practices](#general-software-development-best-practices)
+  - [Java](#java)
   - [Node.js](#nodejs)
   - [React](#react)
   - [Ruby / Rails](#ruby--rails)
@@ -101,24 +103,16 @@ Oh, but don't say the "F" word unless the client does first, please 😜
 
 ## What has worked for us in the past
 
-We've found the following things work really well working with clients:
+Establishing trust with clients can make the difference between getting the job done and exceeding expectations, [afraser](https://github.com/afraser) has some opinions on this stuff, but here's a high-level:
 
 - Communicate. A lot.
-- Get shit done.
-- Speak from experience.
-  - Explain how things made a team or users happy or unhappy.
-  - There is no "best practice", there's only practice.
-- Present ideas frequently.
-  - Get decision makers on your side and/or find a [wolf pack](https://www.urbandictionary.com/define.php?term=Wolfpack)
-- Build it, then show and tell.
-  - New ideas are much more likely to get pulled in if they're already "mostly done."
-- Make developers' lives easier.
-  - Automate things. Improve performance. Find pain points and fix them.
-- Transcend your team.
-  - Communicate and become best friends with Design, UX, Product Owners, Architecture, DevOps... Etc.
-- Pay attention to detail.
-  - Don’t get sloppy (slow code, bad naming, missed edge cases, etc.) .
-  - Delight developers, designers and users.
+- Deliver on promises.
+- Speak from experience (and in terms of what makes people happy or unhappy)
+- Big ideas are more likely to be entertained if they're already built. Build it, then show & tell.
+- Make developers' lives easier through automation etc.
+- Transcend your team by communicating with Design, UX, etc.
+- Focus on real users and use cases.
+- Pay attention to detail. Delight developers, designers and users.
 
 # Where to start with project processes
 

@@ -2,20 +2,20 @@
 
 The purpose of this repository is to document our engineering practices, and when you ask an engineer in the trenches of a project to talk about this sort of thing they might start talking about the stack they've chosen. A stack, even at a macro scale, is an implementation detail. The good stuff comes when we ask "why" and then ask it again and again.
 
-The answer always circles back to _people_. 
+The answer always circles back to _people_.
 
-## Challenges we face as engineers very often require working around issues of trust, process, organizational structure, and culture. 
+## Challenges we face as engineers very often require working around issues of trust, process, organizational structure, and culture.
 
 At Rocket, the majority of our engineers have been around the block a time or two. We've seen most things built _many_ different ways, so our opinions come with a weight of experience. Regardless, we must repeatedly earn the trust of our clients. This is not always done easily, but it is a prerequisite if we wish to exceed expectations.
 
-We often find ourselves on projects with:
+Unfortunately, we often find ourselves on projects with:
 
-- mountains of tech debt
-- poor CI/CD 
-- high-friction development process
-- an inexperienced team
-- significant over-engineering
-- inconsistent implementation of designs
+- Mountains of tech debt
+- Poor CI/CD
+- High-friction development process
+- An inexperienced team
+- Significant over-engineering
+- Inconsistent implementation of designs
 
 It is not hyperbole to say that every engineer at Rocket takes great personal pride in the _art_ of building something new, but it's hard to take pride in that art and work _around_ challenges like the ones listed above. We want to do better. We want to level up the team, pay down tech-debt, fix architectural problems at their source. We want out of meetings that are a total waste of time and we want in on the meetings that will help us build a better product.
 
@@ -43,12 +43,16 @@ Automate things. Improve performance. Find pain points and fix them.
 
 ## Transcend your team.
 
-Get decision makers on your side and/or find a wolf pack. Communicate with and become best friends with Design, UX, Product Owners, Architecture, DevOps, etc.
+Get decision makers on your side and/or find a wolf pack. Communicate with and become best friends with Design, UX, Product Owners, Architecture, DevOps, etc. Make sure you and your team don't feel siloed. Many companies have virtual walls between different teams. Ideally as you get to know other people you can just approach or message them directly, but sometimes the only line you'll have is email. Use whatever means is available.
+
+## Focus on real users and use cases
+
+The better you understand who is going to use the product, the better you will understand how it should be built. This is just one case where it pays to know people outside of the engineering team.
 
 ## Pay attention to detail.
 Don’t get sloppy (slow code, bad naming, missed edge cases, etc.). Delight developers, designers and users. That said, don't let the details derail you from delivering on your promises.
 
-- Think hard about naming. 
+- Think hard about naming.
 - Use sensible abstractions and try to write “idiomatic” code adhering to framework patterns.
 - Provide sensible error handling for developers and users.
 - Always consider worst-case performance.
