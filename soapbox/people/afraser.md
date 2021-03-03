@@ -57,7 +57,6 @@ Don’t get sloppy (slow code, bad naming, missed edge cases, etc.). Delight dev
 - Avoid hacks and “magic numbers”. If you can’t, leave notes in comments for future travellers.
 - Employ responsive styles and sensible css transitions.
 - Optimize for the intended platform and user: Phone or desktop? Consumer or professional?
-- Avoid files with over 200 lines of code
 - Consider keyboard accessibility and shortcuts.
   - esc key closes modals, click-away dismisses popovers, etc
   - All UI (minimally links, buttons and inputs) should be keyboard accessible
