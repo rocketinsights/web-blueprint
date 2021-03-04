@@ -103,7 +103,7 @@ Oh, but don't say the "F" word unless the client does first, please 😜
 
 ## What has worked for us in the past
 
-[Establishing trust with clients](/soapbox/people/afraser.md) can make the difference between getting the job done and exceeding expectations, [afraser](https://github.com/afraser) has some opinions on this stuff, but here's a high-level:
+[Establishing trust with clients](soapbox/people/afraser.md) can make the difference between getting the job done and exceeding expectations, [afraser](https://github.com/afraser) has some opinions on this stuff, but here's a high-level:
 
 - Communicate. A lot.
 - Set expectations. Deliver on promises.
@@ -195,3 +195,4 @@ These are not meant to be comprehensive _by any means_. You may even find confli
 ## Other Non-Technical Topics
 
 - [Project handoff guide by Simon](soapbox/general/smonn-project-handoff.md)
+- [Adam F. on building trust](soapbox/people/afraser.md)
