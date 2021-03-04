@@ -25,13 +25,15 @@ None of these things can realistically be approached without first building trus
 
 Listen, ask questions, give updates, don't miss standup. The beginning of every project should start with a "high-touch" phase. Some (maybe most) clients mistakenly think we have everything we need before we do, make sure you reach out if you don't and request meetings with people who can answer your questions.
 
+Have a low threshold for presenting ideas. You can get a good sense of the team by seeing how these ideas reverberate. Plus, sometimes the response will be "Wait, can we actually do that?"
+
 ## Set expectations. Deliver on promises.
 
 This goes without saying, but building trust means working on what you said you're working on and delivering again and again.
 
 ## Explain how things made people happy or unhappy.
 
-When justifying any decision, it's rarely enough to cite "literature" or "experience" and leave it at that. People need to hear _why_. This is useful when arguing for a particular engineering or design decision, or when considering changes to things like scrum process or meeting format.
+When justifying any decision, it's rarely enough to cite "literature" or "experience" and leave it at that. People need to hear _why_. Speaking from your own prior experience about what made people (users/developers) happy or unhappy will often convince a hesitant decision maker. This is useful when arguing for a particular engineering or design decision, or when considering changes to things like scrum process or meeting format.
 
 ## Build it, then show and tell.
 
@@ -62,7 +64,7 @@ Delight developers, designers and users. Putting the work in here pays dividends
   - Always consider worst-case performance.
   - Always have a [SSOT](https://en.wikipedia.org/wiki/Single_source_of_truth).
   - Write unit tests.
-  - Make it easy for developers to get the application running locally
+  - Make it easy for developers to get the application running locally.
   - Avoid hacks and “magic numbers”.
     - If you can’t, leave notes in comments for future travellers.
   - Employ responsive styles and sensible css transitions.
@@ -81,7 +83,7 @@ Delight developers, designers and users. Putting the work in here pays dividends
 
 This repository is a testament to those opinions that we hold a little closer to heart. Our engineers might not push back on which linter to use, but most would agree that linting is for the better. Ditto for test frameworks and testing. Our clients expect us to push back on any decision that might lead to poor product quality.
 
-Every team culture is different. Some teams expect a more passionate discourse about new ideas and decisions, others quietly adhere to a status-quo that we might not initially be aware of. Try to be sensitive to this.
+Every team culture is different. Some teams expect a more passionate discourse about new ideas and decisions, others quietly adhere to a status-quo that we might not initially be aware of. Try to be sensitive to this, and always be tactful and respectful.
 
 ## Be careful talking about the future.
 
@@ -91,6 +93,8 @@ eg: "The product team is working on features that will require this in V2. If we
 
 ## Consider international cultural differences.
 
-This is something I'm still learning but in Erin Meyer's book [The Culture Map](https://erinmeyer.com/books/the-culture-map/) she outlines 8 axes along which people from different countries may differ.
+Communication, leadership, and decision making styles vary across cultures. For example, in some cultures, if you deliver two things that someone requested and they respond with "Thank you so much! I loved Thing 1." This may tacitly imply that they would like you offer a different version of the second thing.
 
-To get a sense of how these might be applied, [this video](https://hbr.org/video/embed/5476393165001/how-cultures-across-the-world-approach-leadership) provides an overiew of how different cultures approach leadership.
+If you're interested in learning more about this, check out [The Culture Map](https://erinmeyer.com/books/the-culture-map/) by Erin Meyer.
+
+You can also check out [this short video](https://hbr.org/video/embed/5476393165001/how-cultures-across-the-world-approach-leadership) for an overiew of how different cultures approach leadership, or listen to this [interview with Erin Meyer](https://armchairexpertpod.com/pods/erin-meyer).
