@@ -62,6 +62,7 @@ Delight developers, designers and users. Putting the work in here pays dividends
   - Always consider worst-case performance.
   - Always have a [SSOT](https://en.wikipedia.org/wiki/Single_source_of_truth).
   - Write unit tests.
+  - Make it easy for developers to get the application running locally
   - Avoid hacks and “magic numbers”.
     - If you can’t, leave notes in comments for future travellers.
   - Employ responsive styles and sensible css transitions.
