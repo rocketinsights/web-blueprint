@@ -103,16 +103,18 @@ Oh, but don't say the "F" word unless the client does first, please 😜
 
 ## What has worked for us in the past
 
-Establishing trust with clients can make the difference between getting the job done and exceeding expectations, [afraser](https://github.com/afraser) has some opinions on this stuff, but here's a high-level:
+[Establishing trust with clients](/soapbox/people/afraser.md) can make the difference between getting the job done and exceeding expectations, [afraser](https://github.com/afraser) has some opinions on this stuff, but here's a high-level:
 
 - Communicate. A lot.
-- Deliver on promises.
-- Speak from experience (and in terms of what makes people happy or unhappy)
+- Set expectations. Deliver on promises.
+- Speak in terms of what makes people happy or unhappy.
 - Big ideas are more likely to be entertained if they're already built. Build it, then show & tell.
 - Make developers' lives easier through automation etc.
 - Transcend your team by communicating with Design, UX, etc.
-- Focus on real users and use cases.
+- Speak in terms of real users and use cases.
 - Pay attention to detail. Delight developers, designers and users.
+- Know when and how much to push back.
+- Be careful talking about the future.
 
 # Where to start with project processes
 

@@ -21,15 +21,15 @@ It is not hyperbole to say that every engineer at Rocket takes great personal pr
 
 None of these things can realistically be approached without first building trust. So how do we do that?
 
-## Communicate
+## Communicate.
 
 Listen, ask questions, give updates, don't miss standup. The beginning of every project should start with a "high-touch" phase. Some (maybe most) clients mistakenly think we have everything we need before we do, make sure you reach out if you don't and request meetings with people who can answer your questions.
 
-## Deliver on promises
+## Set expectations. Deliver on promises.
 
 This goes without saying, but building trust means working on what you said you're working on and delivering again and again.
 
-## Explain how things made people happy or unhappy
+## Explain how things made people happy or unhappy.
 
 When justifying any decision, it's rarely enough to cite "literature" or "experience" and leave it at that. People need to hear _why_. This is useful when arguing for a particular engineering or design decision, or when considering changes to things like scrum process or meeting format.
 
@@ -45,38 +45,51 @@ Automate things. Improve performance. Find pain points and fix them.
 
 Get decision makers on your side and/or find a wolf pack. Communicate with and become best friends with Design, UX, Product Owners, Architecture, DevOps, etc. Make sure you and your team don't feel siloed. Many companies have virtual walls between different teams. Ideally as you get to know other people you can just approach or message them directly, but sometimes the only line you'll have is email. Use whatever means is available.
 
-## Focus on real users and use cases
+## Speak in terms of real users and use cases.
 
 The better you understand who is going to use the product, the better you will understand how it should be built. This is just one case where it pays to know people outside of the engineering team.
 
 ## Pay attention to detail.
-Don’t get sloppy (slow code, bad naming, missed edge cases, etc.). Delight developers, designers and users. That said, don't let the details derail you from delivering on your promises.
 
-- Think hard about naming.
-- Use sensible abstractions and try to write “idiomatic” code adhering to framework patterns.
-- Provide sensible error handling for developers and users.
-- Always consider worst-case performance.
-- Always have a single source of truth for application state.
-- Write unit tests.
-- Avoid hacks and “magic numbers”. If you can’t, leave notes in comments for future travellers.
-- Employ responsive styles and sensible css transitions.
-- Optimize for the intended platform and user: Phone or desktop? Consumer or professional?
-- Consider keyboard accessibility and shortcuts.
-  - esc key closes modals, click-away dismisses popovers, etc
-  - All UI (minimally links, buttons and inputs) should be keyboard accessible
-- Consider hover/focus/active states.
+Delight developers, designers and users. Putting the work in here pays dividends in trust. That said, don't let this derail you from delivering on your promises. And this goes without saying but don’t get sloppy (bad naming, missed edge cases, slow code, etc.).
 
-## Consider culture when working internationally
+<details>
+  <summary>Examples...</summary>
 
-This is something I'm still learning but in Erin Meyer's book [The Culture Map](https://erinmeyer.com/books/the-culture-map/) she outlines 8 axes along which people from different countries may differ:
+  - Think hard about naming.
+  - Use sensible abstractions and try to write “idiomatic” code adhering to framework patterns.
+  - Provide sensible error handling for developers and users.
+  - Always consider worst-case performance.
+  - Always have a [SSOT](https://en.wikipedia.org/wiki/Single_source_of_truth).
+  - Write unit tests.
+  - Avoid hacks and “magic numbers”.
+    - If you can’t, leave notes in comments for future travellers.
+  - Employ responsive styles and sensible css transitions.
+  - Optimize for the intended platform and user: Phone or desktop? Consumer or professional?
+  - Consider keyboard accessibility and shortcuts.
+    - esc key closes modals, click-away dismisses popovers, etc
+    - All UI (minimally links, buttons and inputs) should be keyboard accessible
+  - Consider hover/focus/active states.
+</details>
 
-- Communicating: explicit vs. implicit
-- Evaluating: direct negative feedback vs. indirect negative feedback
-- Persuading: deductive vs. inductive
-- Leading: egalitarian vs. hierarchical
-- Deciding: consensual vs. top down
-- Trusting: task vs. relationship
-- Disagreeing: confrontational vs. avoid confrontation
-- Scheduling: structured vs. flexible
+## Know when and how much to push back.
 
-To get a sense of how these might be applied, this video provides an overiew of how different cultures approach leadership: https://hbr.org/video/embed/5476393165001/how-cultures-across-the-world-approach-leadership
+> Rocket Engineering: Strong opinions, loosely held. *
+
+\* Some held more loosely than others.
+
+This repository is a testament to those opinions that we hold a little closer to heart. Our engineers might not push back on which linter to use, but most would agree that linting is for the better. Ditto for test frameworks and testing. Our clients expect us to push back on any decision that might lead to poor product quality.
+
+Every team culture is different. Some teams expect a more passionate discourse about new ideas and decisions, others quietly adhere to a status-quo that we might not initially be aware of. Try to be sensitive to this.
+
+## Be careful talking about the future.
+
+We should always be considering handoff and future travelers in the codebase, but statements like "you/we will need/want" should never be unsubstantiated. This is another place where communicating with stakeholders, designers, and anyone else upstream is going to help you make better decisions and communicate those decisions.
+
+eg: "The product team is working on features that will require this in V2. If we do this now we'll save ourselves the headache of changing it later."
+
+## Consider international cultural differences.
+
+This is something I'm still learning but in Erin Meyer's book [The Culture Map](https://erinmeyer.com/books/the-culture-map/) she outlines 8 axes along which people from different countries may differ.
+
+To get a sense of how these might be applied, [this video](https://hbr.org/video/embed/5476393165001/how-cultures-across-the-world-approach-leadership) provides an overiew of how different cultures approach leadership.
