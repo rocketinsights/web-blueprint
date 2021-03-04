@@ -103,7 +103,7 @@ Oh, but don't say the "F" word unless the client does first, please 😜
 
 ## What has worked for us in the past
 
-[Establishing trust with clients](soapbox/people/afraser.md) can make the difference between getting the job done and exceeding expectations, [afraser](https://github.com/afraser) has some opinions on this stuff, but here's a high-level:
+Establishing trust with clients can make the difference between getting the job done and exceeding expectations, [Adam F's soapbox on this has good suggestions](soapbox/people/afraser.md) but here's a high-level overview:
 
 - Communicate. A lot.
 - Set expectations. Deliver on promises.
