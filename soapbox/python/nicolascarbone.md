@@ -2,6 +2,30 @@
 
 This soapbox contains some basic stuff for different Python projects.
 
+## Environment setup
+
+### Virtual Envs
+
+A virtual environment is a Python environment such that the Python interpreter, libraries and scripts installed into it are isolated from those installed in other virtual environments, and (by default) any libraries installed in a “system” Python, i.e., one which is installed as part of your operating system.
+
+This will help you to install project dependencies in an isolate environment without installing anything at system level.
+
+You can easily create a new virtual environment running:
+
+`python3 -m venv your-project`
+
+See [Python docs](https://docs.python.org/3/tutorial/venv.html) for a complete reference.
+
+#### Managing packages
+
+Once the virtual environment is running, you can install packages using [pip](https://docs.python.org/3/installing/index.html#installing-index)
+
+##### Other tools
+
+There are some tools to make this process easier, like [pipenv](https://pypi.org/project/pipenv/)
+which allows you to create a virtual env and also install packages and
+[Poetry](https://python-poetry.org) to easily manage dependencies.
+
 ## Coding Style
 
 Python has defined a coding style guide called PEP8, lease refer to [PEP8](https://www.python.org/dev/peps/pep-0008/) for a complete reference.
@@ -55,8 +79,6 @@ Keep imports sorted, the following is a very common convention
 ```
 
 You can always use plugins like [isort](https://pypi.org/project/isort/) to do this when you save a file or in a git hook.
-
-<br>
 
 ### Private Class Properties
 
@@ -117,29 +139,3 @@ Considerations:
     my_service(cache=cache)
     cache.get.assert_called_with(key)
     ```
-
-### Frameworks
-
-    <link to fastapi soapbox> ?
-
-### Virtual Envs
-
-A virtual environment is a Python environment such that the Python interpreter, libraries and scripts installed into it are isolated from those installed in other virtual environments, and (by default) any libraries installed in a “system” Python, i.e., one which is installed as part of your operating system.
-
-This will help you to install project dependencies in an isolate environment without installing anything at system level.
-
-You can easily create a new virtual environment running:
-
-`python3 -m venv your-project`
-
-See [Python docs](https://docs.python.org/3/tutorial/venv.html) for a complete reference.
-
-#### Managing packages
-
-Once the virtual environment is running, you can install packages using [pip](https://docs.python.org/3/installing/index.html#installing-index)
-
-##### Other tools
-
-There are some tools to make this process easier, like [pipenv](https://pypi.org/project/pipenv/)
-which allows you to create a virtual env and also install packages and
-[Poetry](https://python-poetry.org) to easily manage dependencies.

@@ -19,6 +19,8 @@
   - [React](#react)
   - [Ruby / Rails](#ruby--rails)
   - [Other Non-Technical Topics](#other-non-technical-topics)
+  - [Angular](#angular)
+  - [Python](#python)
 
 # What is this project?
 
