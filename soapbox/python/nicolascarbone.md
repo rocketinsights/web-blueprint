@@ -16,11 +16,11 @@ You can easily create a new virtual environment running:
 
 See [Python docs](https://docs.python.org/3/tutorial/venv.html) for a complete reference.
 
-#### Managing packages
+### Managing packages
 
 Once the virtual environment is running, you can install packages using [pip](https://docs.python.org/3/installing/index.html#installing-index)
 
-##### Other tools
+### Other tools
 
 There are some tools to make this process easier, like [pipenv](https://pypi.org/project/pipenv/)
 which allows you to create a virtual env and also install packages and
