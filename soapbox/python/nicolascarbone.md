@@ -26,6 +26,14 @@ There are some tools to make this process easier, like [pipenv](https://pypi.org
 which allows you to create a virtual env and also install packages and
 [Poetry](https://python-poetry.org) to easily manage dependencies.
 
+### System dependencies
+
+For this kind of dependency is recommended to use tools like docker. This will make easier for other developers
+to setup the project and it will prevent to install software in your operating system that is only
+required for a particular project.
+
+There are docker images for postgres, mssql, fastapi, etc.
+
 ## Coding Style
 
 Python has defined a coding style guide called PEP8, lease refer to [PEP8](https://www.python.org/dev/peps/pep-0008/) for a complete reference.
