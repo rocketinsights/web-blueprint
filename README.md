@@ -16,11 +16,10 @@
   - [General Software Development Best Practices](#general-software-development-best-practices)
   - [Java](#java)
   - [Node.js](#nodejs)
+  - [Python](#python)
   - [React](#react)
   - [Ruby / Rails](#ruby--rails)
   - [Other Non-Technical Topics](#other-non-technical-topics)
-  - [Angular](#angular)
-  - [Python](#python)
 
 # What is this project?
 
@@ -186,6 +185,10 @@ These are not meant to be comprehensive _by any means_. You may even find confli
 
 - [Matt M's Node.js Soapbox](soapbox/node.js/theothermattm.md)
 
+## Python
+
+- [Nico C's Python Soapbox](soapbox/python/nicolascarbone.md)
+
 ## React
 
 - [Jake R's React.js Soapbox](soapbox/react/jakerainis.md)
@@ -198,7 +201,3 @@ These are not meant to be comprehensive _by any means_. You may even find confli
 
 - [Project handoff guide by Simon](soapbox/general/smonn-project-handoff.md)
 - [Adam F. on building trust](soapbox/people/afraser.md)
-
-## Python
-
- - [Nico C's Python Soapbox](soapbox/python/nicolascarbone.md)
