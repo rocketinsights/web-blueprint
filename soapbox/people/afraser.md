@@ -37,7 +37,7 @@ When justifying any decision, it's rarely enough to cite "literature" or "experi
 
 ## Build it, then show and tell.
 
-New ideas are much more likely to get pulled in if they're already basically done. This is particuarly useful on slow-moving teams.
+New ideas are much more likely to get pulled in if they're already basically done. This is particularly useful on slow-moving teams.
 
 ## Make developers' lives easier.
 
@@ -93,8 +93,8 @@ eg: "The product team is working on features that will require this in V2. If we
 
 ## Consider international cultural differences.
 
-Communication, leadership, and decision making styles vary across cultures. For example, in some cultures, if you deliver two things that someone requested and they respond with "Thank you so much! I loved Thing 1." This may tacitly imply that they would like you offer a different version of the second thing.
+Communication, leadership, and decision making styles vary across cultures. For example, in some cultures, if you deliver two things that someone requested and they respond with "Thank you so much! I loved Thing 1." This may tacitly imply that they would like you to offer a different version of the second thing.
 
 If you're interested in learning more about this, check out [The Culture Map](https://erinmeyer.com/books/the-culture-map/) by Erin Meyer.
 
-You can also check out [this short video](https://hbr.org/video/embed/5476393165001/how-cultures-across-the-world-approach-leadership) for an overiew of how different cultures approach leadership, or listen to this [interview with Erin Meyer](https://armchairexpertpod.com/pods/erin-meyer).
+You can also check out [this short video](https://hbr.org/video/embed/5476393165001/how-cultures-across-the-world-approach-leadership) for an overview of how different cultures approach leadership, or listen to this [interview with Erin Meyer](https://armchairexpertpod.com/pods/erin-meyer).

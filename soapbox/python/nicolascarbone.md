@@ -42,7 +42,7 @@ You should always stick to this guide, it is in most of the python projects.
 
 Most important styles are:
 - Use spaces instead of tabs.
-- Use underscode for function, methods, variables and file names:
+- Use underscore for function, methods, variables and file names:
     - Examples: get_user, client_name, set_date, etc
 - Use camel case for class names: MyClass, MyService, etc
 - Use capital letter at module level for constants.
@@ -77,7 +77,7 @@ Formatters can run in a git hook or as an IDE plugin.
 Keep imports sorted, the following is a very common convention
 
 ```
-<python standard lib imporst>
+<python standard lib imports>
 
 <third party imports>
 
@@ -92,7 +92,7 @@ You can always use plugins like [isort](https://pypi.org/project/isort/) to do t
 
 Python does not have access modifiers so use a leading `_` for private methods.
 
-Avoid using leading `__` because that will trigger a process called `name mangling`, it will just put the classname as attribute preffix.
+Avoid using leading `__` because that will trigger a process called `name mangling`, it will just put the class name as attribute prefix.
 
 ## Coding Practices
 
@@ -111,7 +111,7 @@ Some things to keep in mind:
 
     Then you can use this class to access to your data from your services.
 
-- Single responsability: Avoid adding more than one responsability to each function/method. This will make you code simpler and easier to test.
+- Single responsibility: Avoid adding more than one responsibility to each function/method. This will make you code simpler and easier to test.
 - Unit of work: this is a useful pattern which collaborates with the repository pattern to coordinate the writing out of changes. It is an abstraction for atomic operation, so the API does not communicate with all the other layers.
 
     See [Chapter](https://www.cosmicpython.com/book/chapter_06_uow.html) of the amazing book by Harry Percival.
@@ -125,7 +125,7 @@ Whenever possible use an ORM to access to the database, this can help to make yo
 
 A common option is [SqlAlchemy](https://www.sqlalchemy.org) but there are others like [Peewee](http://docs.peewee-orm.com/en/latest/).
 
-When using an ORM avoid writing raw sql unless is strickly necessary, this will tie your code to 
+When using an ORM avoid writing raw sql unless is strictly necessary, this will tie your code to 
 an specific db engine.
 
 ### Testing
@@ -136,7 +136,7 @@ tests more scalable and it is widely accepted by the python community.
 
 Considerations:
 - Each function or method should have its own test
-- Keep an eye on responsabilites and make sure you function/method does only one thing,
+- Keep an eye on responsibilities and make sure you function/method does only one thing,
     this will allow you to write smaller and more reliable tests.
 - Mock any third-party lib.
     - You can use mock and patch from unittest for this purpose.

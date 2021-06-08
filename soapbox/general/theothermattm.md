@@ -16,7 +16,7 @@
 - Document your API's
   - For plain old REST use [OpenAPI](https://www.openapis.org/)
   - For GraphQL use... GraphQL
-- Have a naming standard for your API's. Consistently use camelCase or kebab-case, etc.
+- Have a naming standard for your APIs. Consistently use camelCase or kebab-case, etc.
 - Prefer using UTC for _storing_ timestamps where possible. Show timestamps to users depending on preferences.
 - Prefer the use of [optimistic locking](https://en.wikipedia.org/wiki/Optimistic_concurrency_control) for persisting data. It will prevent concurrent access issues and generally _stays out of the way_. Build it in from the start, and you'll be on easy street. Do it after you've gone to prod and you're gonna have a bad time.
-  - For example, in Node.js, [sequelize has this built in](https://sequelize.org/master/manual/optimistic-locking.html). Many ORM's do.
+  - For example, in Node.js, [sequelize has this built in](https://sequelize.org/master/manual/optimistic-locking.html). Many ORMs do.
