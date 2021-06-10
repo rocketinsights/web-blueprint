@@ -201,3 +201,4 @@ These are not meant to be comprehensive _by any means_. You may even find confli
 
 - [Project handoff guide by Simon](soapbox/general/smonn-project-handoff.md)
 - [Adam F. on building trust](soapbox/people/afraser.md)
+- [Efficiency as a programmer](soapbox/general/smonn-efficiency.md)
