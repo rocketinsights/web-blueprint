@@ -2,6 +2,8 @@
 
 📝 By [Simon][smonn]
 
+[smonn]: https://github.com/smonn
+
 ---
 
 Someone once said that a great programmer is a lazy one. The key being that they try to get as much done with as little effort as possible as opposed to not getting anything done. In other words, they are efficient. So what can you do to improve your efficiency?
